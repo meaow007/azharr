@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Gadgets - Gadget Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ffcc00;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #ffcc00;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        .product-grid {
+            padding: 50px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #2b2b2b;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product h4 {
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            color: #cccccc;
+        }
+
+        .product .btn {
+            background-color: #ffcc00;
+            color: #121212;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .product .btn:hover {
+            background-color: #cc9900;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-top: 3px solid #ffcc00;
+        }
+
+        footer p {
+            margin: 0;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Samsung Gadgets</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-grid">
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/d6/db/b7/d6dbb7f8889583b9932f7e079a3fcc44.jpg" alt="Samsung Galaxy S23">
+            <h4>Samsung Galaxy S23</h4>
+            <p>₹74,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/67/70/23/6770233cf864ce2a4d270e030905261f.jpg" alt="Samsung Galaxy Z Fold 5">
+            <h4>Samsung Galaxy Z Fold 5</h4>
+            <p>₹1,54,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/0c/c5/ab/0cc5ab4843a4876806b4d635de77c50a.jpg" alt="Samsung Galaxy Tab S9">
+            <h4>Samsung Galaxy Tab S9</h4>
+            <p>₹84,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/09/93/f6/0993f6a845df50f9c9a4c087a419ca53.jpg" alt="Samsung Galaxy Watch 5">
+            <h4>Samsung Galaxy Watch 5</h4>
+            <p>₹24,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/23/cb/a8/23cba89c84c63cc91f1b2c93a07a98e2.jpg" alt="Samsung Galaxy Buds 2 Pro">
+            <h4>Samsung Galaxy Buds 2 Pro</h4>
+            <p>₹12,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/13/ce/4e/13ce4ef9b4934798f47fd92f82f6bd76.jpg" alt="Samsung 4K UHD TV">
+            <h4>Samsung 4K UHD TV</h4>
+            <p>₹54,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/1f/f4/32/1ff4328be45f22739c3172dcfdf0ab2a.jpg" alt="Samsung Galaxy A54">
+            <h4>Samsung Galaxy A54</h4>
+            <p>₹38,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/64/20/55/642055b9a640834a0f9d9d76c6466766.jpg" alt="Samsung Odyssey G9 Monitor">
+            <h4>Samsung Odyssey G9 Monitor</h4>
+            <p>₹1,29,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/77/66/f5/7766f5c4ad16317410818e9c1355b56d.jpg" alt="Samsung AirDresser">
+            <h4>Samsung AirDresser</h4>
+            <p>₹1,49,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/61/ee/d6/61eed682ff9c959021c8ecd7a201e9fd.jpg" alt="Samsung Smart Refrigerator">
+            <h4>Samsung Smart Refrigerator</h4>
+            <p>₹2,19,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gadget Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

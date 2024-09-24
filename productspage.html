@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Gadget Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff0000;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #ff0000;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff0000;
+        }
+
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-item {
+            background-color: #2b2b2b;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-item img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .product-item h4 {
+            color: #ff0000;
+            margin: 0 0 10px 0;
+        }
+
+        .product-item p {
+            color: #cccccc;
+            margin: 0;
+        }
+
+        .view-details-btn {
+            background-color: #ff0000;
+            color: #121212;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .view-details-btn:hover {
+            background-color: #cc0000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-top: 3px solid #ff0000;
+        }
+
+        footer p {
+            margin: 0;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gadgets Collection</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="samsung.html">Samsung</a></li>
+                <li><a href="apple.html">Apple</a></li>
+                <li><a href="asus.html">Asus</a></li>
+                <li><a href="lenovo.html">Lenovo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-container">
+        <!-- Samsung Products -->
+        <div class="product-item">
+            <img src="https://i.pinimg.com/564x/d6/db/b7/d6dbb7f8889583b9932f7e079a3fcc44.jpg" alt="Samsung Galaxy S23">
+            <h4>Samsung Galaxy S23</h4>
+            <p>Price: ₹79,999</p>
+            <a href="samsung.html" class="view-details-btn">View Details</a>
+        </div>
+        <div class="product-item">
+            <img src="https://i.pinimg.com/564x/67/70/23/6770233cf864ce2a4d270e030905261f.jpg" alt="Samsung Galaxy Z Fold 5">
+            <h4>Samsung Galaxy Z Fold 5</h4>
+            <p>Price: ₹1,84,999</p>
+            <a href="samsung.html" class="view-details-btn">View Details</a>
+        </div>
+        <div class="product-item">
+            <img src="https://i.pinimg.com/564x/0c/c5/ab/0cc5ab4843a4876806b4d635de77c50a.jpg" alt="Samsung Galaxy Tab S9">
+            <h4>Samsung Galaxy Tab S9</h4>
+            <p>Price: ₹1,10,999</p>
+            <a href="samsung.html" class="view-details-btn">View Details</a>
+        </div>
+        <div class="product-item">
+            <img src="https://i.pinimg.com/564x/09/93/f6/0993f6a845df50f9c9a4c087a419ca53.jpg" alt="Samsung Galaxy Watch 5">
+            <h4>Samsung Galaxy Watch 5</h4>
+            <p>Price: ₹32,999</p>
+            <a href="samsung.html" class="view-details-btn">View Details</a>
+        </div>
+        <div class="product-item">
+            <img src="https://i.pinimg.com/564x/23/cb/a8/23cba89c84c63cc91f1b2c93a07a98e2.jpg" alt="Samsung Galaxy Buds 2 Pro">
+            <h4>Samsung Galaxy Buds 2 Pro</h4>
+            <p>Price: ₹19,999</p>
+            <a href="samsung.html" class="view-details-btn">View Details</a>
+        </div>
+
+        <!-- Apple Products -->
+        <div class="product-item">
+            <img src="https://i.pinimg.com/564x/db/d8/8b/dbd88bc1c82715e056def5b4f7564a49.jpg" alt="iPhone 15 Pro">
+            <h4>iPhone 15 Pro</h4>
+            <p>Price: ₹1,29,999</p>
+            <a href="apple.html" class="view-details-btn">View Details</a>
+        </div>
+        <div class="product-item">
+            <img src="https://i.pinimg.com/736x/74/a6/3f/74a63f2a28a3e8c330faab4e93312883.jpg" alt="Apple Watch Ultra 2">
+            <h4>Apple Watch Ultra 2</h4>
+            <p>Price: ₹89,999</p>
+            <a href="apple.html" class="view-details-btn">View Details</a>
+        </div>
+        <div class="product-item">
+            <img src="https://i.pinimg.com/564x/90/78/e2/9078e2eb3d2e67d8f18cae995775b924.jpg" alt="Apple Vision Pro">
+            <h4>Apple Vision Pro</h4>
+            <p>Price: ₹1,99,999</p>
+            <a href="apple.html" class="view-details-btn">View Details</a>
+        </div>
+        <div class="product-item">
+            <img src="https://i.pinimg.com/564x/dc/ad/de/dcadde2e42bea9fd85aa27d3b58b86a3.jpg" alt="iPad Pro 12.9">
+            <h4>iPad Pro 12.9</h4>
+            <p>Price: ₹1,19,999</p>
+            <a href="apple.html" class="view-details-btn">View Details</a>
+        </div>
+        <div class="product-item">
+            <img src="https://i.pinimg.com/564x/d3/a9/1d/d3a91d58e6670c09e9e522019a2deda0.jpg" alt="AirPods Pro 2">
+            <h4>AirPods Pro 2</h4>
+            <p>Price: ₹24,999</p>
+            <a href="apple.html" class="view-details-btn">View Details</a>
+        </div>
+
+        <!-- Asus Products -->
+        <div class="product-item">
+            <img src="https://i.pinimg.com/564x/e5/c5/f4/e5c5f45cd2872f49011e954f62fa24f6.jpg" alt="Asus ROG Phone 7">
+            <h4>Asus ROG Phone 7</h4>
+            <p>Price: ₹69,999</p>
+            <a href="asus.html" class="view-details-btn">View Details

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Gadgets - Gadget Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff0000;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #ff0000;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff0000;
+        }
+
+        .product-grid {
+            padding: 50px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #2b2b2b;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product h4 {
+            color: #ff0000;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            color: #cccccc;
+        }
+
+        .product .btn {
+            background-color: #ff0000;
+            color: #121212;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .product .btn:hover {
+            background-color: #cc0000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-top: 3px solid #ff0000;
+        }
+
+        footer p {
+            margin: 0;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Apple Gadgets</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-grid">
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/db/d8/8b/dbd88bc1c82715e056def5b4f7564a49.jpg" alt="iPhone 15 Pro">
+            <h4>iPhone 15 Pro</h4>
+            <p>₹1,29,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/74/a6/3f/74a63f2a28a3e8c330faab4e93312883.jpg" alt="Apple Watch Ultra 2">
+            <h4>Apple Watch Ultra 2</h4>
+            <p>₹89,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/90/78/e2/9078e2eb3d2e67d8f18cae995775b924.jpg" alt="Apple Vision Pro">
+            <h4>Apple Vision Pro</h4>
+            <p>₹3,29,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/dc/ad/de/dcadde2e42bea9fd85aa27d3b58b86a3.jpg" alt="iPad Pro 12.9">
+            <h4>iPad Pro 12.9</h4>
+            <p>₹1,19,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/d3/a9/1d/d3a91d58e6670c09e9e522019a2deda0.jpg" alt="AirPods Pro 2">
+            <h4>AirPods Pro 2</h4>
+            <p>₹29,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/52/23/0b/52230bfef638b026f653af0a1f22c169.jpg" alt="MacBook Pro 16 M2">
+            <h4>MacBook Pro 16 M2</h4>
+            <p>₹2,49,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/49/5f/f9/495ff9c6beb3c8dc8b0bbfb7196b0383.jpg" alt="Apple AirTag">
+            <h4>Apple AirTag</h4>
+            <p>₹3,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/c4/50/e3/c450e3e3cda40d5d9335be8728824e22.jpg" alt="Apple Magic Keyboard">
+            <h4>Apple Magic Keyboard</h4>
+            <p>₹21,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/c8/86/fe/c886fe66d89fafc41bba39cf1bac8e98.jpg" alt="HomePod 2nd Gen">
+            <h4>HomePod 2nd Gen</h4>
+            <p>₹44,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/37/2c/b1/372cb1f194a683f36bdb2e64821304b7.jpg" alt="Apple TV 4K">
+            <h4>Apple TV 4K</h4>
+            <p>₹14,999</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gadget Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

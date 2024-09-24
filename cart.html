@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Gadget Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff0000;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #ff0000;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff0000;
+        }
+
+        .cart-container {
+            padding: 50px 20px;
+        }
+
+        .cart-item {
+            display: flex;
+            align-items: center;
+            background-color: #2b2b2b;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .cart-item img {
+            max-width: 150px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .cart-item h4 {
+            color: #ff0000;
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        .cart-item p {
+            color: #cccccc;
+            margin: 0;
+        }
+
+        .remove-btn {
+            background-color: #ff0000;
+            color: #121212;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .remove-btn:hover {
+            background-color: #cc0000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-top: 3px solid #ff0000;
+        }
+
+        footer p {
+            margin: 0;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="cart-container">
+        <div class="cart-item">
+            <img src="https://i.pinimg.com/564x/fa/4a/33/fa4a33bfcbf603abb9308ae3dd3120e3.jpg" alt="Lenovo ThinkPad X1 Carbon">
+            <div>
+                <h4>Lenovo ThinkPad X1 Carbon</h4>
+                <p>Price: ₹1,29,999</p>
+                <a href="#" class="remove-btn">Remove</a>
+            </div>
+        </div>
+        <div class="cart-item">
+            <img src="https://i.pinimg.com/564x/90/78/e2/9078e2eb3d2e67d8f18cae995775b924.jpg" alt="Apple Vision Pro">
+            <div>
+                <h4>Apple Vision Pro</h4>
+                <p>Price: ₹1,99,999</p>
+                <a href="#" class="remove-btn">Remove</a>
+            </div>
+        </div>
+        <!-- Add more cart items here -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gadget Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
